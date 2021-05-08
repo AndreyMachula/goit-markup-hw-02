@@ -8,7 +8,6 @@
   --white-color-text: #ffffff;
   --secondary-white-color-text: rgba(255, 255, 255, 0.6);
   --black-color-text: #000000;
-  --secondary-accent-color: rgba(33, 150, 243, 0.7);
 }
 
 body {
@@ -36,6 +35,23 @@ button {
 }
 /*=================End button=================*/
 
+/*=================Hidden title=================*/
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*=================End hidden title=================*/
+
+/*=================Header=================*/
 /*=================Logo=================*/
 .logo {
   color: var(--black-color-text);
@@ -48,14 +64,10 @@ button {
 span {
   color: var(--accent-color);
 }
-.page-header .logo: hover.
-.page-header .logo: focus {
-  color: -;
-}
 
 /*=================End Logo================= */
 
-/*=================Site nav=================*/
+/*=================Site navigation=================*/
 .site-nav .link {
   color: var(--title-text-color);
   font-family: Roboto;
@@ -68,7 +80,7 @@ span {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-/*=================End site nav=================*/
+/*=================End site navigation=================*/
 
 /*=================Contacts=================*/
 .contact-header .link {
@@ -111,14 +123,16 @@ span {
 
 /*=================End hero=================*/
 
-/*=================Section=================*/
+/*=================Section title=================*/
 .section-title {
   color: var(--title-text-color);
 }
-/*=================End section=================*/
+/*=================End section title=================*/
 
 /*=================Professional quality=================*/
-.section-quality .section-title {
+
+/*=================Qualities list=================*/
+.qualities-list .section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,15 +141,15 @@ span {
 }
 /*=================End professional quality=================*/
 
-/*=================Examples=================*/
-.examples .section-title {
+/*=================What are we doing=================*/
+.section-we-doing .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/*=================End examples=================*/
+/*=================End what are we doing=================*/
 
 /*=================Team presentation=================*/
 .section-team {
