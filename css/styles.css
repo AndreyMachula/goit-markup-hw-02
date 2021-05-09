@@ -38,10 +38,6 @@ button {
 }
 /*=================End button=================*/
 
-.active {
-  color: var(--accent-color);
-}
-
 /*=================Hidden title=================*/
 .visually-hidden {
   position: absolute;
@@ -80,6 +76,9 @@ span {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.site-nav .active {
+  color: var(--accent-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
