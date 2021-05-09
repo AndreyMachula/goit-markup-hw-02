@@ -117,10 +117,7 @@ span {
 .section-hero .button {
   color: var(--white-color-text);
   background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -221,10 +218,6 @@ address {
 .portfolio-filters .button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
