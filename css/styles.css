@@ -121,6 +121,12 @@ span {
   height: 50px;
   left: 700px;
   top: 430px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 .section-hero .button:hover,
@@ -219,6 +225,11 @@ address {
   height: 38px;
   left: 712px;
   top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 /*=================End filters=================*/
