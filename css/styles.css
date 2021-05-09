@@ -8,6 +8,7 @@
   --white-color-text: #ffffff;
   --secondary-white-color-text: rgba(255, 255, 255, 0.6);
   --black-color-text: #000000;
+  --secondary-accent-color: #188ce8;
 }
 
 body {
@@ -25,18 +26,20 @@ body {
 .text {
   text-decoration: none;
 }
+/*=================Section title=================*/
+.section-title {
+  color: var(--title-text-color);
+}
+/*=================End section title=================*/
+
 /*=================Button=================*/
 button {
   font-family: inherit;
 }
-.button {
-  color: var(--title-text-color);
-  background-color: var(--secondary-background-color);
-}
 /*=================End button=================*/
 
 /*=================Hidden title=================*/
-.hidden-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -51,7 +54,6 @@ button {
 }
 /*=================End hidden title=================*/
 
-/*=================Header=================*/
 /*=================Logo=================*/
 .logo {
   color: var(--black-color-text);
@@ -64,7 +66,6 @@ button {
 span {
   color: var(--accent-color);
 }
-
 /*=================End Logo================= */
 
 /*=================Site navigation=================*/
@@ -96,7 +97,6 @@ span {
   color: var(--accent-color);
 }
 /*=================End contacts=================*/
-/*=================End header=================*/
 
 /*=================Hero=================*/
 .section-hero {
@@ -117,41 +117,32 @@ span {
 }
 .section-hero .button:hover,
 .section-hero .button:focus {
-  background-color: var(--secondary-background-color);
-  color: var(--title-text-color);
+  background-color: var(--secondary-accent-color);
+  color: var(--white-color-text);
 }
-
 /*=================End hero=================*/
 
-/*=================Section title=================*/
-.section-title {
-  color: var(--title-text-color);
-}
-/*=================End section title=================*/
-
-/*=================Professional quality=================*/
-
 /*=================Qualities list=================*/
-.qualities-list .section-title {
+.qualities .section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/*=================End professional quality=================*/
+/*=================End qualities list=================*/
 
-/*=================What are we doing=================*/
-.section-we-doing .section-title {
+/*=================Our work=================*/
+.section-work .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/*=================End what are we doing=================*/
+/*=================End our work=================*/
 
-/*=================Team presentation=================*/
+/*=================Team=================*/
 .section-team {
   background-color: var(--secondary-background-color);
 }
@@ -176,7 +167,7 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/*=================End team presentation=================*/
+/*=================End team=================*/
 
 /*=================Footer=================*/
 .footer {
@@ -204,14 +195,20 @@ address {
 }
 /*=================End footer=================*/
 
-/*=================Portfolio navigation=================*/
+/*//////////////////////////////portfolio.html//////////////////////////////*/
+
+/*=================Filters=================*/
 
 .portfolio-filters .button:hover,
 .portfolio-filters .button:focus {
   background-color: var(--accent-color);
   color: var(--white-color-text);
 }
-/*=================End portfolio navigation=================*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+}
+/*=================End filters=================*/
 
 /*=================Works list=================*/
 .portfolio-works .section-title {
