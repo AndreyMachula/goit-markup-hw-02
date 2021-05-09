@@ -38,6 +38,10 @@ button {
 }
 /*=================End button=================*/
 
+.active {
+  color: var(--accent-color);
+}
+
 /*=================Hidden title=================*/
 .visually-hidden {
   position: absolute;
@@ -69,7 +73,7 @@ span {
 /*=================End Logo================= */
 
 /*=================Site navigation=================*/
-.site-nav .link {
+.site-nav a {
   color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
@@ -77,15 +81,15 @@ span {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   color: var(--accent-color);
 }
 /*=================End site navigation=================*/
 
 /*=================Contacts=================*/
 .contact-header .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -114,6 +118,11 @@ span {
 .section-hero .button {
   color: var(--white-color-text);
   background-color: var(--accent-color);
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
 }
 .section-hero .button:hover,
 .section-hero .button:focus {
@@ -204,9 +213,14 @@ address {
   background-color: var(--accent-color);
   color: var(--white-color-text);
 }
-.button {
+.portfolio-filters .button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  cursor: pointer;
 }
 /*=================End filters=================*/
 
